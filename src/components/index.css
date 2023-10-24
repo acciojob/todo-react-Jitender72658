@@ -4,3 +4,8 @@ ul{
 span{
     margin-right: 20px;
 }
+.list-item{
+    display:  flex;
+    justify-content: space-between;
+    margin: 0px 5px;
+}

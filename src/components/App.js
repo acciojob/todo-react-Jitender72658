@@ -1,7 +1,6 @@
 
 import React,{useState} from "react";
 import './../styles/App.css';
-import AddTask from "./AddTask";
 import './index.css'
 
 const App = () => {
@@ -34,7 +33,7 @@ const App = () => {
       </div>
       <ul>
         {tasks.map((task, index) => (
-          <li key={index}>
+          <li key={index} className="list-item">
             <span>{task}</span>
             <button onClick={() => handleRemoveTask(index)}>Delete</button>
           </li>
